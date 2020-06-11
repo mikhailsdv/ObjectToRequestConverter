@@ -1,4 +1,4 @@
-# ObjectToRequestConverter
+# object-to-request-converter
 Convert multidimensional JavaScript object to x-www-form-urlencoded request object.
 
 ### Usage
