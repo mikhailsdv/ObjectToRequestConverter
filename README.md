@@ -1,10 +1,10 @@
 # object-to-request-converter
 Convert multidimensional JavaScript object to x-www-form-urlencoded request object.
 
-### Usage
-
+Usage
+---
 Call `convert(array, name)` where `array` is an array or an object that needs to be converted and `name` (optional) is a string that will go before every path in the result object.
-```
+```js
 //let's say we have some complex object like this
 let arr = [{"a":1,"b":[1,2,3]},[{"c":4,"d":5,"e":[6,{"f":7}]}],8];
 
